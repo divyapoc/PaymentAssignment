@@ -17,7 +17,6 @@ const Navbar = () => {
               href="#"
               className="nav-link course-dropdown"
               data-bs-toggle="dropdown"
-              aria-expand="false"
               id="dropdown-menu1"
               role="button"
             >
@@ -41,7 +40,6 @@ const Navbar = () => {
               href="#"
               className="nav-link course-dropdown"
               data-bs-toggle="dropdown"
-              aria-expand="false"
               id="dropdown-menu"
               role="button"
             >
@@ -67,7 +65,6 @@ const Navbar = () => {
           data-bs-toggle="collapse"
           data-bs-target="#boostrapnav"
           aria-controls="boostrapnav"
-          aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <i className="fa-solid fa-bars bar-style"></i>

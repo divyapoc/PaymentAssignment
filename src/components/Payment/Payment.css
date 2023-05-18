@@ -369,3 +369,7 @@ button[disabled] {
 .sub-tag-cls {
   background: #47ba68;
 }
+.radio-style {
+  background: #47ba68;
+  border: 2px solid #47ba68;
+}

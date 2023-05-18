@@ -89,9 +89,9 @@ const SubcriptionPayment = () => {
               key={i}
               className="subscription-btn-class"
               disabled={!data.Pricestatus}
-              onClick={() =>
-                handleOnSelection(data.totalamount, data.offerprice)
-              }
+              onClick={() => {
+                handleOnSelection(data.totalamount, data.offerprice);
+              }}
             >
               {data.expirestatus && (
                 <div className="expire-tag-cls" key={i}>
