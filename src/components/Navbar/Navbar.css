@@ -1,0 +1,60 @@
+.navbar-box {
+  height: 72px;
+  background: #ffffff;
+  align-items: center;
+  padding: 24px 80px;
+  gap: 10px;
+}
+.navbar-item {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-class {
+  height: 45px;
+}
+.course-dropdown:link,
+.nav-item-cls,
+.nav-link {
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+}
+.course-dropdown:active {
+  color: #000;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.drop-expand {
+  margin-left: 15px;
+}
+
+.nav-btn-cls {
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  /* padding: 10px 42px; */
+  gap: 10px;
+  width: 166px;
+  height: 40px;
+  border-radius: 52px;
+  color: #ffffff;
+  border: 0;
+}
+/* .navbar-menu-cls {
+  background-color: #ffffff;
+} */
+/* The media query and the max-width are just for demo */
+@media (min-width: 200px) and (max-width: 768px) {
+  .navbar-menu-cls {
+    background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 0.4rem;
+  }
+}
+
+.bar-style {
+  color: #0096ff;
+}
+.nav-item {
+  margin-right: 1rem;
+}
